@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Exported Menus feature.
+ */
+
+include_once 'exported_menus.features.inc';

@@ -43,6 +43,7 @@ function site_permissions_user_default_permissions() {
   $permissions['access content'] = array(
     'name' => 'access content',
     'roles' => array(
+      'Content Admin' => 'Content Admin',
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
@@ -207,6 +208,7 @@ function site_permissions_user_default_permissions() {
   $permissions['administer menu'] = array(
     'name' => 'administer menu',
     'roles' => array(
+      'Content Admin' => 'Content Admin',
       'administrator' => 'administrator',
     ),
     'module' => 'menu',
@@ -297,6 +299,7 @@ function site_permissions_user_default_permissions() {
   $permissions['administer taxonomy'] = array(
     'name' => 'administer taxonomy',
     'roles' => array(
+      'Content Admin' => 'Content Admin',
       'administrator' => 'administrator',
     ),
     'module' => 'taxonomy',
@@ -378,6 +381,7 @@ function site_permissions_user_default_permissions() {
   $permissions['create page content'] = array(
     'name' => 'create page content',
     'roles' => array(
+      'Content Admin' => 'Content Admin',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -414,6 +418,7 @@ function site_permissions_user_default_permissions() {
   $permissions['delete any page content'] = array(
     'name' => 'delete any page content',
     'roles' => array(
+      'Content Admin' => 'Content Admin',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -432,6 +437,7 @@ function site_permissions_user_default_permissions() {
   $permissions['delete own page content'] = array(
     'name' => 'delete own page content',
     'roles' => array(
+      'Content Admin' => 'Content Admin',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -441,6 +447,7 @@ function site_permissions_user_default_permissions() {
   $permissions['delete revisions'] = array(
     'name' => 'delete revisions',
     'roles' => array(
+      'Content Admin' => 'Content Admin',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -477,6 +484,7 @@ function site_permissions_user_default_permissions() {
   $permissions['edit any page content'] = array(
     'name' => 'edit any page content',
     'roles' => array(
+      'Content Admin' => 'Content Admin',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -504,6 +512,7 @@ function site_permissions_user_default_permissions() {
   $permissions['edit own page content'] = array(
     'name' => 'edit own page content',
     'roles' => array(
+      'Content Admin' => 'Content Admin',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -577,6 +586,7 @@ function site_permissions_user_default_permissions() {
   $permissions['revert revisions'] = array(
     'name' => 'revert revisions',
     'roles' => array(
+      'Content Admin' => 'Content Admin',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -586,6 +596,7 @@ function site_permissions_user_default_permissions() {
   $permissions['search content'] = array(
     'name' => 'search content',
     'roles' => array(
+      'Content Admin' => 'Content Admin',
       'administrator' => 'administrator',
     ),
     'module' => 'search',
@@ -661,6 +672,7 @@ function site_permissions_user_default_permissions() {
   $permissions['view own unpublished content'] = array(
     'name' => 'view own unpublished content',
     'roles' => array(
+      'Content Admin' => 'Content Admin',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -670,6 +682,7 @@ function site_permissions_user_default_permissions() {
   $permissions['view revisions'] = array(
     'name' => 'view revisions',
     'roles' => array(
+      'Content Admin' => 'Content Admin',
       'administrator' => 'administrator',
     ),
     'module' => 'node',

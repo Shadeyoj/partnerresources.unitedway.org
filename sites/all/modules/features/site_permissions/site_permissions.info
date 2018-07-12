@@ -100,4 +100,6 @@ features[user_permission][] = use text format full_html
 features[user_permission][] = view own unpublished content
 features[user_permission][] = view revisions
 features[user_permission][] = view the administration theme
-project path = features
+features[user_role][] = Content Admin
+features[user_role][] = administrator
+project path = sites/all/modules/features

@@ -75,31 +75,35 @@ body > p {
                     <li class="utility-menu__donate">
                         <a href="https://www.unitedway.org/get-involved/ways-to-give/donate">Donate</a>
                     </li>
+
+                    <li class="utility-menu__logout">
+                        <a href="/user/logout">Logout</a>
+                    </li>
                 </ul>
             </nav> <!--/.utility-menu-->
    
             <nav class="main-menu">
                 <ul class="right">
                     <li class="main-menu__parent-item">
-                        <a href="#">Videos</a>
+                        <a href="/node/5">Videos</a>
                     </li>
                     <li class="main-menu__parent-item">
-                        <a href="#">Infographics</a>
+                        <a href="/node/4">Infographics</a>
                     </li>
                     <li class="main-menu__parent-item">
-                        <a href="#">Impact</a>
+                        <a href="/node/7">Impact</a>
                     </li>
                     <li class="main-menu__parent-item">
-                        <a href="#">Employee Engagement</a>
+                        <a href="/npde/3">Employee Engagement</a>
                     </li>
                     <li class="main-menu__parent-item">
-                        <a href="#">Logos</a>
+                        <a href="/node/6">Logos</a>
                     </li>
                     <li class="main-menu__parent-item">
-                        <a href="#">Images</a>
+                        <a href="/node/17">Images</a>
                     </li>
                     <li class="main-menu__parent-item">
-                        <a href="#">Brand Standards</a>
+                        <a href="node/14">Brand Standards</a>
                     </li>
                     <!--<li class="main-menu__btns">
                         <a href="#">Engagement</a>
@@ -295,22 +299,22 @@ body > p {
 <ul><li class="nav-item-1">
                         <a href="#">Partner Resources</a>
 <ul class="children"><li class="nav-item-2">
-                        <a href="#">Video</a>
+                        <a href="/node/5">Video</a>
                     </li><li class="nav-item-3">
-                        <a href="#">Infographics</a>
+                        <a href="/node/4">Infographics</a>
                     </li><li class="nav-item-4">
-                        <a href="#">Impact Collateral</a>
+                        <a href="/node/7">Impact Collateral</a>
                     </li><li class="nav-item-5">
-                        <a href="#">Employee Engagement</a>
+                        <a href="/node/3">Employee Engagement</a>
                     </li>
                     <li class="nav-item-6">
-                        <a href="#">Logos</a>
+                        <a href="/node/6">Logos</a>
                     </li>
                     <li class="nav-item-7">
-                        <a href="#">Images</a>
+                        <a href="/node/17">Images</a>
                     </li>
                     <li class="nav-item-8">
-                        <a href="#">Partner Brand Standards</a>
+                        <a href="/node/14">Partner Brand Standards</a>
                     </li>
 </ul>
                     </li><li class="nav-item-9">

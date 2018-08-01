@@ -103,7 +103,7 @@ body > p {
                         <a href="/node/17">Images</a>
                     </li>
                     <li class="main-menu__parent-item">
-                        <a href="node/14">Brand Standards</a>
+                        <a href="/node/14">Brand Standards</a>
                     </li>
                     <!--<li class="main-menu__btns">
                         <a href="#">Engagement</a>

@@ -57,21 +57,21 @@ body > p {
         <div class="header-logo">
             <a href="https://www.unitedway.org"><img src="https://www.unitedway.org/assets/img/new-logo.svg" alt="United Way Logo"></a>
         </div>
-        
+
         <header class="desktop-header show-for-large-up">
             <nav class="utility-menu">
-                <ul class="right">                                
+                <ul class="right">
                     <li class="utility-menu__volunteer">
                         <a href="https://www.unitedway.org/get-involved/volunteer/">Volunteer</a>
                     </li>
- 
+
                     <li class="utility-menu__211">
                         <a href="http://211.org/" target="_blank">2-1-1</a>
                     </li>
                     <li class="utility-menu__locate">
                         <a href="https://www.unitedway.org/find-your-united-way/">Find Your United Way</a>
                     </li>
-                    
+
                     <li class="utility-menu__donate">
                         <a href="https://www.unitedway.org/get-involved/ways-to-give/donate">Donate</a>
                     </li>
@@ -81,7 +81,7 @@ body > p {
                     </li>
                 </ul>
             </nav> <!--/.utility-menu-->
-   
+
             <nav class="main-menu">
                 <ul class="right">
                     <li class="main-menu__parent-item">
@@ -105,57 +105,65 @@ body > p {
                     <li class="main-menu__parent-item">
                         <a href="/node/14">Brand Standards</a>
                     </li>
+                    <li class="main-menu__parent-item">
+                        <a href="/node/21">Usage Agreement</a>
+                    </li>
                     <!--<li class="main-menu__btns">
                         <a href="#">Engagement</a>
                     </li>-->
                 </ul>
-            </nav> <!--/.main-menu-->        
-        </header>  
+            </nav> <!--/.main-menu-->
+        </header>
 
         <header class="mobile-header show-for-medium-down">
             <ul class="mobile-header__utilities">
-            
-               
+
+
                 <li class="mobile-header__menu-toggle">
                     <a href="#" class="js-expand-nav"><span>MENU</span></a>
                 </li>
-            
+
             </ul>
         </header>
-       
+
         <nav class="mobile-menu">
 
-<ul class="mobile-menu__root"><li class="mobile-menu__level-1">          
+<ul class="mobile-menu__root"><li class="mobile-menu__level-1">
             <div class="mobile-menu__parent-group">
-                <a href="#" class="js-expand-submenu expand-level-1"><span class="menu-title">Video/span><span class="menu-icon">&times;</span></a>
-            </div>   
+                <a href="/node/5" class="js-expand-submenu expand-level-1"><span class="menu-title">Video</span><span class="menu-icon">&times;</span></a>
+            </div>
 
-    </li><li class="mobile-menu__level-1">        
+    </li><li class="mobile-menu__level-1">
             <div class="mobile-menu__parent-group">
-                <a href="#" class="js-expand-submenu expand-level-1"><span class="menu-title">Infographics</span><span class="menu-icon">&times;</span></a>
-            </div>       
-    </li><li class="mobile-menu__level-1">          
+                <a href="/node/4" class="js-expand-submenu expand-level-1"><span class="menu-title">Infographics</span><span class="menu-icon">&times;</span></a>
+            </div>
+    </li><li class="mobile-menu__level-1">
             <div class="mobile-menu__parent-group">
-                <a href="#" class="js-expand-submenu expand-level-1"><span class="menu-title">Impact</span><span class="menu-icon">&times;</span></a>
-            </div>   
+                <a href="/node/7" class="js-expand-submenu expand-level-1"><span class="menu-title">Impact</span><span class="menu-icon">&times;</span></a>
+            </div>
     </li><li class="mobile-menu__level-1">
                   <div class="mobile-menu__parent-group">
-                <a href="#" class="js-expand-submenu expand-level-1"><span class="menu-title">Employee Engagement</span><span class="menu-icon">&times;</span></a>
-            </div>       
-    </li>  
-    <li class="mobile-menu__level-1">
-                    <div class="mobile-menu__parent-group">
-                <a href="#" class="js-expand-submenu expand-level-1"><span class="menu-title">Logos</span><span class="menu-icon">&times;</span></a>
-            </div>
-    </li> 
-     <li class="mobile-menu__level-1">
-                    <div class="mobile-menu__parent-group">
-                <a href="#" class="js-expand-submenu expand-level-1"><span class="menu-title">Images</span><span class="menu-icon">&times;</span></a>
+                <a href="/node/3" class="js-expand-submenu expand-level-1"><span class="menu-title">Employee Engagement</span><span class="menu-icon">&times;</span></a>
             </div>
     </li>
     <li class="mobile-menu__level-1">
                     <div class="mobile-menu__parent-group">
-                <a href="#" class="js-expand-submenu expand-level-1"><span class="menu-title">Brand Standards</span><span class="menu-icon">&times;</span></a>
+                <a href="/node/6" class="js-expand-submenu expand-level-1"><span class="menu-title">Logos</span><span class="menu-icon">&times;</span></a>
+            </div>
+    </li>
+     <li class="mobile-menu__level-1">
+                    <div class="mobile-menu__parent-group">
+                <a href="/node/17" class="js-expand-submenu expand-level-1"><span class="menu-title">Images</span><span class="menu-icon">&times;</span></a>
+            </div>
+    </li>
+    <li class="mobile-menu__level-1">
+                    <div class="mobile-menu__parent-group">
+                <a href="/node/14" class="js-expand-submenu expand-level-1"><span class="menu-title">Brand Standards</span><span class="menu-icon">&times;</span></a>
+            </div>
+    </li>
+     <li class="mobile-menu__level-1">
+                    <div class="mobile-menu__parent-group">
+                <a href="/node/21" class="js-expand-submenu expand-level-1"><span class="menu-title">Usage Agreement</span><span class="menu-icon">&times;</span></a>
             </div>
     </li>
 </ul>
@@ -286,7 +294,7 @@ body > p {
   <?php endif; ?>
 
   <!--.l-footer -->
-<footer class="page-footer"> 
+<footer class="page-footer">
         <div class="nav-container row">
             <div class="page-footer__logo hide-for-medium-down large-2 columns">
                 <a href="https://www.unitedway.org/">
@@ -295,7 +303,7 @@ body > p {
             </div>
 
             <nav class="page-footer__menu small-7 large-6 columns">
-                
+
 <ul><li class="nav-item-1">
                         <a href="#">Partner Resources</a>
 <ul class="children"><li class="nav-item-2">
@@ -316,6 +324,9 @@ body > p {
                     <li class="nav-item-8">
                         <a href="/node/14">Partner Brand Standards</a>
                     </li>
+                     <li class="nav-item-8">
+                        <a href="/node/21">Usage Agreement</a>
+                    </li>
 </ul>
                     </li><li class="nav-item-9">
                         <a href="#">Contact Us</a>
@@ -323,33 +334,33 @@ body > p {
                     </li><li class="nav-item-10">
                         <a href="https://www.unitedway.org/privacy-policy">Privacy Policy</a>
                     </li>
-                
+
 </ul>
             </nav>
-            
+
         <div class="page-footer__social small-5 medium-4 large-4 columns">
                 <h4 class="page-footer__heading">Social</h4>
                 <ul class="page-footer__social-icons">
-                    
+
                     <li class="facebook-link">
                         <a href="https://www.facebook.com/UnitedWay" target="_blank">Facebook</a>
-                    </li>               
-                    
+                    </li>
+
                     <li class="twitter-link">
                         <a href="https://twitter.com/unitedway" target="_blank">Twitter</a>
                     </li>
-                    
+
                     <li class="youtube-link">
                         <a href="https://www.youtube.com/unitedway" target="_blank">YouTube</a>
                     </li>
 
                     <li class="instagram-link">
                         <a href="https://instagram.com/unitedway/" target="_blank">Instagram</a>
-                    </li> 
+                    </li>
 
                     <li class="linkedin-link">
                         <a href="https://www.linkedin.com/company/1511592?trk=tyah&trkInfo=tarId%3A1407787780806%2Ctas%3Aunited%20way%20wo%2Cidx%3A2-1-2" target="_blank">LinkedIn</a>
-                    </li>  
+                    </li>
 
                     <li class="facebook-link">
                         <a href="https://www.unitedway.org/blog/rss" target="_blank">Subscribe to our Blog</a>

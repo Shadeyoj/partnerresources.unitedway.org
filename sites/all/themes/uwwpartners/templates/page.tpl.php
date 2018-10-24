@@ -36,7 +36,6 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
 
-<script async src="//analytics.newscred.com/analytics_7d0496beadfb488090fe5fd67065b6b2.js"></script>
 
 <style>
 
@@ -55,7 +54,7 @@ body > p {
   <div class="site-container">
 
         <div class="header-logo">
-            <a href="https://www.unitedway.org"><img src="https://www.unitedway.org/assets/img/new-logo.svg" alt="United Way Logo"></a>
+            <a href="/"><img src="https://www.unitedway.org/assets/img/new-logo.svg" alt="United Way Logo"></a>
         </div>
 
         <header class="desktop-header show-for-large-up">
@@ -170,6 +169,10 @@ body > p {
 
 </nav> <!--/.main-menu-->
   <!--/.l-header -->
+
+
+
+
 
   <?php if (!empty($page['featured'])): ?>
     <!--.l-featured -->
@@ -297,7 +300,7 @@ body > p {
 <footer class="page-footer">
         <div class="nav-container row">
             <div class="page-footer__logo hide-for-medium-down large-2 columns">
-                <a href="https://www.unitedway.org/">
+                <a href="/">
                     <img src="https://www.unitedway.org/assets/img/new-logo.svg" alt="United Way Logo">
                 </a>
             </div>
@@ -375,3 +378,48 @@ body > p {
   <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
 </div>
 <!--/.page -->
+
+  <script>
+function mobileNavigation() {
+    var t = $(".js-expand-nav")
+      , e = $(".mobile-menu")
+      , i = e.find(".js-expand-submenu")
+      , n = "is-expanded"
+      , o = function(i) {
+        t.removeClass(n),
+        e.removeClass(n),
+        e.find("li").removeClass(n),
+        e.find(".mobile-submenu:not(.mobile-submenu--level-4)").css("display", "none"),
+        i !== !0 && e.css("display", "none")
+    };
+    t.on("click", function(i) {
+        e.hasClass(n) ? (e.slideUp(250),
+        o(!0)) : (t.addClass(n),
+        e.addClass(n),
+        e.slideDown(250),
+        $("html, body").animate({
+            scrollTop: 0
+        }, 400)),
+        i.preventDefault()
+    }),
+    i.on("click", function(t) {
+        var e = $(this)
+          , i = e.closest("li");
+        i.hasClass(n) ? (i.removeClass(n),
+        i.find("li").removeClass(n),
+        i.find("ul:not(.mobile-submenu--level-4)").slideUp(250)) : (i.siblings().removeClass(n),
+        i.siblings().find("li").removeClass(n),
+        i.siblings().find("ul:not(.mobile-submenu--level-4)").slideUp(250).addClass("slide-up"),
+        i.addClass(n),
+        i.find("ul").first().slideDown(250)),
+        t.preventDefault()
+    }),
+    enquire.register("(min-width: 64.063em)", {
+        match: function() {
+            o()
+        }
+    })
+}
+
+
+</script>

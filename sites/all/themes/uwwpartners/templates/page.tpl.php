@@ -129,40 +129,40 @@ body > p {
 
 <ul class="mobile-menu__root"><li class="mobile-menu__level-1">
             <div class="mobile-menu__parent-group">
-                <a href="/node/5" class="js-expand-submenu expand-level-1"><span class="menu-title">Video</span><span class="menu-icon">&times;</span></a>
+                <a href="/node/5" class="js-expand-submenu expand-level-1"><span class="menu-title">Video</span></a>
             </div>
 
     </li><li class="mobile-menu__level-1">
             <div class="mobile-menu__parent-group">
-                <a href="/node/4" class="js-expand-submenu expand-level-1"><span class="menu-title">Infographics</span><span class="menu-icon">&times;</span></a>
+                <a href="/node/4" class="js-expand-submenu expand-level-1"><span class="menu-title">Infographics</span></a>
             </div>
     </li><li class="mobile-menu__level-1">
             <div class="mobile-menu__parent-group">
-                <a href="/node/7" class="js-expand-submenu expand-level-1"><span class="menu-title">Impact</span><span class="menu-icon">&times;</span></a>
+                <a href="/node/7" class="js-expand-submenu expand-level-1"><span class="menu-title">Impact</span></a>
             </div>
     </li><li class="mobile-menu__level-1">
                   <div class="mobile-menu__parent-group">
-                <a href="/node/3" class="js-expand-submenu expand-level-1"><span class="menu-title">Employee Engagement</span><span class="menu-icon">&times;</span></a>
+                <a href="/node/3" class="js-expand-submenu expand-level-1"><span class="menu-title">Employee Engagement</span></a>
             </div>
     </li>
     <li class="mobile-menu__level-1">
                     <div class="mobile-menu__parent-group">
-                <a href="/node/6" class="js-expand-submenu expand-level-1"><span class="menu-title">Logos</span><span class="menu-icon">&times;</span></a>
+                <a href="/node/6" class="js-expand-submenu expand-level-1"><span class="menu-title">Logos</span></a>
             </div>
     </li>
      <li class="mobile-menu__level-1">
                     <div class="mobile-menu__parent-group">
-                <a href="/node/17" class="js-expand-submenu expand-level-1"><span class="menu-title">Images</span><span class="menu-icon">&times;</span></a>
+                <a href="/node/17" class="js-expand-submenu expand-level-1"><span class="menu-title">Images</span></a>
             </div>
     </li>
     <li class="mobile-menu__level-1">
                     <div class="mobile-menu__parent-group">
-                <a href="/node/14" class="js-expand-submenu expand-level-1"><span class="menu-title">Brand Standards</span><span class="menu-icon">&times;</span></a>
+                <a href="/node/14" class="js-expand-submenu expand-level-1"><span class="menu-title">Brand Standards</span></a>
             </div>
     </li>
      <li class="mobile-menu__level-1">
                     <div class="mobile-menu__parent-group">
-                <a href="/node/21" class="js-expand-submenu expand-level-1"><span class="menu-title">Usage Agreement</span><span class="menu-icon">&times;</span></a>
+                <a href="/node/21" class="js-expand-submenu expand-level-1"><span class="menu-title">Usage Agreement</span></a>
             </div>
     </li>
 </ul>
@@ -378,48 +378,3 @@ body > p {
   <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
 </div>
 <!--/.page -->
-
-  <script>
-function mobileNavigation() {
-    var t = $(".js-expand-nav")
-      , e = $(".mobile-menu")
-      , i = e.find(".js-expand-submenu")
-      , n = "is-expanded"
-      , o = function(i) {
-        t.removeClass(n),
-        e.removeClass(n),
-        e.find("li").removeClass(n),
-        e.find(".mobile-submenu:not(.mobile-submenu--level-4)").css("display", "none"),
-        i !== !0 && e.css("display", "none")
-    };
-    t.on("click", function(i) {
-        e.hasClass(n) ? (e.slideUp(250),
-        o(!0)) : (t.addClass(n),
-        e.addClass(n),
-        e.slideDown(250),
-        $("html, body").animate({
-            scrollTop: 0
-        }, 400)),
-        i.preventDefault()
-    }),
-    i.on("click", function(t) {
-        var e = $(this)
-          , i = e.closest("li");
-        i.hasClass(n) ? (i.removeClass(n),
-        i.find("li").removeClass(n),
-        i.find("ul:not(.mobile-submenu--level-4)").slideUp(250)) : (i.siblings().removeClass(n),
-        i.siblings().find("li").removeClass(n),
-        i.siblings().find("ul:not(.mobile-submenu--level-4)").slideUp(250).addClass("slide-up"),
-        i.addClass(n),
-        i.find("ul").first().slideDown(250)),
-        t.preventDefault()
-    }),
-    enquire.register("(min-width: 64.063em)", {
-        match: function() {
-            o()
-        }
-    })
-}
-
-
-</script>
